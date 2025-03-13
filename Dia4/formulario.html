@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+    <!--Formulario-->
+    <form name="formularioInscripcion" method="post" action="">
+        <!--IMPUTS DEL FORMULARIO-->
+        <input type="text" name="username" placeholder="Nombre" maxlength="50"/><br>
+        <input type="text" name="username" placeholder="Apellidos" maxlength="50"/><br>
+        <input type="text" name="correo" placeholder="Correo electronico"/><br>
+
+    <p>Elegir sexo</p>
+    <p>
+    Hombre: <input type="radio" name="citizenship" id="sexo"><br>
+    Mujer: <input type="radio" name="citizenship" id="sexo"><br>
+    </p>
+        <label
+  ><input type="checkbox" id="cbox1" value="first_cbox" checked/> Deseo recibir información sobre novedades y ofertas</label
+><br />  
+<input type="checkbox" id="cbox2" value="second_"/>
+<label for="cbox2">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+<label for="opciones">Elige una poblacion:</label>
+        <select id="opciones" name="opciones">
+            <option value="opcion1">Bucaramanga</option>
+            <option value="opcion2">Giron</option>
+            <option value="opcion3">Floridablanca</option>
+            <option value="opcion4">Piedecuesta</option>
+        </select>
+        <br><br>
+    
+
+</p>
+<p>Descripcion</p>
+<p>
+<textarea id="textarea" name="Descripcion" rows="4" cols="50"> </textarea>
+</p>
+<input type="submit" value="enviar">    
+</form>
+</body>
+</html>
