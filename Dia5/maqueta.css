@@ -20,6 +20,7 @@
     height: 54px;
     position: absolute;
     border-radius: 50px;
+    font-family: "luz";
 }
 
 .search{
@@ -38,6 +39,7 @@
     width: 458px;
     height: 104px;
     border-radius: 50px;
+    font-family: "luz";
 }
 
 .block1{
@@ -76,7 +78,7 @@
     position: absolute;
     left: 600px;
     color:white;
-    
+    font-family: "letrica";
 }
 
 .block3 .img{
@@ -95,7 +97,7 @@
     top: 400px;
     left: 200px;
     color:white;
-  
+  font-family: "luz";
     
 }
 
@@ -103,6 +105,7 @@
     text-align: center;
     font-size: 60px;
     color:white;
+    font-family: 'letrica';
 }
 
 .block2 .text2{
@@ -111,19 +114,23 @@
     position: absolute;
     top: 500px;
     color:white;
+    font-family: "luz";
 }
 
 .block1 .text1{
     text-align: center;
     font-size: 60px;
     color:white;
-    
+    font-family: "letrica";
 }
 
 .block1 .text2{
     text-align: center;
     font-size: 40px;
     color:white;
+    font-family: "luz";
+    position: absolute;
+    top: 400px;
 }
 
 .block2 .Rectangle{
@@ -171,6 +178,7 @@
     width: 1118px;
     height: 125px;
     font-size: 125px;
+    font-family: "luz";
 }
 
 .device{
@@ -181,6 +189,7 @@
     left: 181px;
     width: 1544px;
     height: 99px;
+    font-family: "luz";
 }
 
 .terminos{
@@ -210,4 +219,42 @@
 
 .reversa .flechita{
     transform: rotate(181deg);
+}
+
+@font-face {
+    font-family: 'letrica';
+    src: url('../Dia5/font/bold.ttf');
+}
+
+@font-face {
+    font-family:"luz" ;
+    src: url("../Dia5/font/light.ttf");
+}
+
+.inicial{
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    font-family: "letrica";
+    top: 400px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+}
+
+.inicial2{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    font-family: "luz";
+    top: 508px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+}
+
+.block1 .TV{
+    position: absolute;
+    top: 140px;
+    left: 750px;
 }
