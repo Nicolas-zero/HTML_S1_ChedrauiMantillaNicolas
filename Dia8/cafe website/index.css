@@ -1,0 +1,567 @@
+.fondo .cafe{
+    position: relative;
+    top: -10px;
+    margin-left: -10px;
+    width: 1850px;
+    height: 1000px;
+}
+
+.textoinicio1{
+    font-family: "old-standard", serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
+
+.textoinicio2{
+    font-family: "old-standard", serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 750px;
+    left: 500px;
+}
+
+.logo{
+    font-family: "hanken-grotesk", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 400px;
+}
+
+.home{
+    color: white;
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 1150px;
+}
+
+.about{
+    color: white;
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 1250px;
+}
+
+.menu{
+    color: #ffffff;
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 1350px;
+}
+
+.contact{
+    color: white;
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 1450px;
+}
+
+.boton1{
+    background: rgb(249, 191, 31);
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 920px;
+    left: 900px;
+    width: 105px;
+    height: 35px;
+}
+
+.boton1 .boton{
+    text-align: center;
+    position: relative;
+    top: -7px;
+}
+
+.cafe1{
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+
+.linea{
+    background: white;
+    position: relative;
+    top: -80px;
+    left: 950px;
+    width: 100px;
+    height: 3px;
+}
+
+.textocafe1{
+position: relative;
+top: -200px;
+left: 1100px;
+}
+
+.textocafe1 .texto1{
+    color:white;
+    font-family: "old-standard", serif;
+    font-weight: 700;
+    font-size: 80px;
+
+}
+
+.textocafe1 .texto2{
+    color: white;
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    top: -60px;
+    width: 600px;
+}
+
+.boton2{
+    background: rgb(249, 191, 31);
+    position: relative;
+    top: -250px;
+    left: 1100px;
+    width: 150px;
+    height: 40px;
+}
+
+.boton2 .learn{
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.cafe2{
+    position: relative;
+    left: 1050px;
+    width: 400px;
+    height: 400px;
+}
+
+.textocafe2{
+position: relative;
+top: -380px;
+left: 300px;
+}
+
+.textocafe2 .texto1{
+color: white;
+font-family: "old-standard", serif;
+font-weight: 700;
+font-size: 50px;
+position: relative;
+width: 500px;
+}
+
+.textocafe2 .texto2{
+color: white;
+font-family: "anonymous-pro", monospace;
+font-weight: 700;
+font-style: normal;
+position: relative;
+top: -20px;
+}
+
+.boton3{
+    background: rgb(249, 191, 31);
+    position: relative;
+    top: -380px;
+    left: 300px;
+    width: 150px;
+    height: 40px;
+}
+
+.boton3 .learn{
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.products{
+    color: white;
+    font-family: "old-standard", serif;
+    font-weight: 700;
+    font-size: 50px;
+    position: relative;
+    top: -200px;
+    left: 200px;
+}
+
+.producto1{
+    border:1px solid rgb(249, 191, 31) ;
+    position: relative;
+    top: -100px;
+    left: 220px;
+    width: 280px;
+    height: 400px;
+}
+
+.cafeimagen{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -550px;
+    left: 310px;
+}
+
+.producto1 .titulo{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.producto1 .contenido1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.producto1 .contenido2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.producto1 .contenido3{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.producto1 .boton{
+    background: rgb(249, 191, 31);
+    position: relative;
+    top: 150px;
+    left: 65px;
+    width: 150px;
+    height: 50px;
+}
+
+.producto1 .boton .learn{
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.producto2{
+    border:1px solid rgb(249, 191, 31) ;
+    position: relative;
+    top: -606px;
+    left: 850px;
+    width: 280px;
+    height: 400px;
+}
+
+.cafeimagen2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -1060px;
+    left: 950px;
+}
+
+.producto2 .titulo{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.producto2 .contenido1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.producto2 .contenido2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.producto2 .contenido3{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.producto2 .boton{
+    background: rgb(249, 191, 31);
+    position: relative;
+    top: 150px;
+    left: 65px;
+    width: 150px;
+    height: 50px;
+}
+
+.producto2 .boton .learn{
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    top: 15px;
+} 
+
+.producto3{
+    border:1px solid rgb(249, 191, 31) ;
+    position: relative;
+    top: -1113px;
+    left: 1400px;
+    width: 280px;
+    height: 400px;
+}
+
+.cafeimagen3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -1565px;
+    left: 1500px
+}
+
+.producto3 .titulo{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.producto3 .contenido1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.producto3 .contenido2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.producto3 .contenido3{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.producto3 .boton{
+    background: rgb(249, 191, 31);
+    position: relative;
+    top: 150px;
+    left: 65px;
+    width: 150px;
+    height: 50px;
+}
+
+.producto3 .boton .learn{
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    top: 15px;
+} 
+
+.linea{
+    background: rgb(249, 191, 31);
+    position: relative;
+    top: 1600px;
+    left: 750px;
+    width: 500px;
+    height: 1px;
+} 
+
+.us1{
+    color: white;
+    position: relative;
+    top: -1100px;
+}
+
+.us1 .about{
+    font-size: 60px;
+    position: relative;
+    left: 300px;
+}
+
+.us1 .us{
+    color: rgb(249, 191, 31);
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    position: relative;
+    top: -105px;
+    left: 475px;
+}
+
+.us2{
+    color: white;
+    position: relative;
+    top: -1100px;
+}
+
+.us2 .contact{
+    font-size: 60px;
+    position: relative;
+    top: -233px;
+    left: 820px;
+}
+
+.us2 .us{
+    color: rgb(249, 191, 31);
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    position: relative;
+    top: -360px;
+    left: 1070px;
+}
+
+.us3{
+    color: white;
+    position: relative;
+    top: -1100px;
+}
+
+.us3 .open{
+    font-size: 60px;
+    position: relative;
+    top: -485px;
+    left: 1350px;
+}
+
+.us3 .us{
+    color: rgb(249, 191, 31);
+    font-family: "anonymous-pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    position: relative;
+    top: -613px;
+    left: 1570px;
+}
+
+.text{
+    color: white;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 3220px;
+    left: 250px;
+    width: 400px;
+}
+
+.text2{
+    color: white;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 3220px;
+    left: 800px;
+    width: 400px;
+}
+
+.text3{
+    color: white;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 3220px;
+    left: 1380px;
+    width: 400px;
+}
+
+.linea2{
+    background: rgb(249, 191, 31);
+    position: relative;
+    top: -1500px;
+    left: 750px;
+    width: 500px;
+    height: 1px;
+} 
+.copy{
+    color:white;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 3480px;
+    left: 840px;
+    width: 400px;
+}
+
+.home::after,
+.about::after,
+.menu::after,
+.contact::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: yellow;
+    transition: width 0.3s ease-in-out;
+}
+
+.home:hover::after,
+.about:hover::after,
+.menu:hover::after,
+.contact:hover::after {
+    width: 100%;
+}
+
+/* Desarrollado por nicolas Chedraui Mantilla 127.0.0.1:5500*/

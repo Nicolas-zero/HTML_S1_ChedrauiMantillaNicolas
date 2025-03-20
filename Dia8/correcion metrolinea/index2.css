@@ -1,0 +1,232 @@
+@font-face {
+    font-family:"Sans" ;
+    src: url("../Dia7/font/Sans.ttf");
+}
+
+@font-face {
+    font-family:"regular" ;
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
+.logo{
+    position: absolute;
+    top: 243px;
+    left: 143px;
+    width: 196px;
+    height: 44px;
+}
+
+.comprar{
+    font-family: "regular";
+    font-size: 30px;
+    position: absolute;
+    top: 210px;
+    left: 800px;
+    width: 230px;
+    height: 41px;
+}
+
+.saldo{
+    font-family: "regular";
+    font-size: 30px;
+    position: absolute;
+    top: 210px;
+    left: 1072px;
+    width: 132px;
+    height: 41px;
+}
+
+.search{
+    position: absolute;
+    top: 252px;
+    left: 1224px;
+    width: 27px;
+    height: 27px;
+}
+
+.shopping{
+    position: absolute;
+    top: 252px;
+    left: 1324px;
+    width: 33px;
+    height: 23px;
+}
+
+.rectangle{
+    background-color: #212020;
+    position: absolute;
+    top: 200px;
+    left: 1390px;
+    width: 110px;
+    height: 800px;
+    background: transparent url 0% 0% no-repeat padding-box;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.arriba{
+    position: absolute;
+    top: 240px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+}
+
+.valor{
+    font-family: "regular";
+    font-size: 20px;
+    color:#ffff;
+    position: absolute;
+    top: 367px;
+    left: 1421px;
+    width: 48px;
+    height: 27px;
+}
+
+.mil{
+    color: #FFFFFF80;
+    font-family: "regular";
+    font-size: 20px;
+    position: absolute;
+    top: 507px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+}
+
+.mil_quinientos{
+    color: #ffff;
+    font-family: "regular";
+    font-size: 20px;
+    position: absolute;
+    top: 587px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+}
+
+.dosmil{
+    color: #FFFFFF80;
+    font-family: "regular";
+    font-size: 20px;
+    position: absolute;
+    top: 667px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+}
+
+.abajo{
+    position: absolute;
+    top: 946px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+}
+
+.tarjeta{
+    position: absolute;
+    top: 303px;
+    left: 459px;
+    width: 576px;
+    height: 324px;
+}
+
+.info{
+    font-family: "Sans";
+    position: absolute;
+    font-size: 40px;
+    top: 560px;
+    left: 480px;
+    width: 700px;
+    height: 55px;
+}
+
+.total{
+    position: absolute;
+    font-family: "Sans";
+    font-size: 27px;
+    top: 640px;
+    left: 620px;
+    width: 329px;
+    height: 37px;
+}
+
+.escogido{
+    font-family: "Sans";
+    font-size: 27px;
+    position: absolute;
+    top: 720px;
+    left: 665px;
+    width: 200px;
+    height: 37px;
+}
+
+.recuadro{
+    font-family: "Sans";
+    font-size: 27px;
+    opacity: 50%;
+    position: absolute;
+    top: -15px;
+    left: 110px;
+    opacity: 50%;
+}
+
+.background{
+    position: absolute;
+    top: 799px;
+    left: 595px;
+    width: 288px;
+    height: 58px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.recargar{
+    background-color: #D5FF43;
+    border-radius: 8px;
+    position: absolute;
+    top: 847px;
+    left: 1180px;
+    width: 160px;
+    height: 114px;
+}
+
+.recargar .metro{
+    position: absolute;
+    top: 29px;
+    left: 15px;
+}
+
+.recargar .texto{
+    font-family: "Sans";
+    position: absolute;
+    font-size: 26px;
+    top: 35px;
+    left: 35px;
+}
+
+.linea{
+    position: absolute;
+    top: 303px;
+    left: 1096px;
+    width: 84px;
+}
+
+.body{
+    width: 1600px;
+    height: 1200px;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+}
+
+.body_white{
+    background-color: #ffff;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 1400px;
+    height: 800px;
+    background: transparent url 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
