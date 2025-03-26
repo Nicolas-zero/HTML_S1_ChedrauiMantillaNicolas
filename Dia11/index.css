@@ -6,6 +6,7 @@
     left: 500px;
     display: flex;
     flex-wrap: wrap;
+    grid-template-columns: auto auto;
 
 }
 
@@ -19,6 +20,8 @@
     grid-column-start: 1;
     grid-column-end: 1;
     border-radius: 30px;
+    position: relative;
+
 }
 
 .item2{
@@ -27,6 +30,9 @@
     grid-column-start: 1;
     grid-column-end: 1;
     border-radius: 30px;
+    position: relative;
+    top: 10px;
+ 
 }
 
 .item3{
@@ -34,7 +40,7 @@
     top: -320px;
     left: -500px;
     width: 450px;
-    height: 652px;
+    height: 661px;
     grid-column-start: 2;
     grid-column-end: 4;
     border-radius: 30px;
