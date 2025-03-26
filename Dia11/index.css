@@ -1,6 +1,5 @@
 .flex-container{
     background-color: black;
-    color: white;
     width: 1024px;
     height: 1254.95px;
     position: relative;
@@ -19,6 +18,7 @@
 .item1{
     grid-column-start: 1;
     grid-column-end: 1;
+    border-radius: 30px;
 }
 
 .item2{
@@ -26,6 +26,7 @@
     height: 332px;
     grid-column-start: 1;
     grid-column-end: 1;
+    border-radius: 30px;
 }
 
 .item3{
@@ -36,8 +37,8 @@
     height: 652px;
     grid-column-start: 2;
     grid-column-end: 4;
+    border-radius: 30px;
 }
-
 .item4{
     position: relative;
     top: -300px;
@@ -45,4 +46,49 @@
     height: 550px;
     grid-column-start: 1;
     grid-column-end: 1; 
+    border-radius: 30px;
 }
+
+.flex-container2{
+    background-color: black;
+    width: 1024px;
+    height: 728.017px;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container2 .grid-container{
+    display: grid;
+    column-gap: 50px;
+}
+
+.flex-container2 .item1{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 30px;
+}
+
+.flex-container2 .item2{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    top: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 30px;
+}
+
+.flex-container2 .item3{
+    position: relative;
+    top:-700px;
+    width: 500px;
+    height: 720px;
+    left: 240px;
+    border-radius: 30px;
+}   
